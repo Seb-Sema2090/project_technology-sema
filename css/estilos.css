@@ -25,6 +25,7 @@ a{
 }
 
 .imagen-logo{
+    
     justify-self: start;
 }
 
@@ -37,6 +38,7 @@ margin-left: 3rem;
 }
 
 .barrra-navegacion{
+    
     background-color: rgb(217, 214, 214);
     margin-top: 4rem;
     width: 1200px;
@@ -118,6 +120,7 @@ footer{
     font-family: 'M PLUS 1', sans-serif;
 }
 .Imagen{
+    grid-area:auto ;
     border-radius: 20px;
 }
 .Body{
@@ -133,5 +136,7 @@ footer{
     justify-items: center;
     grid-area: span;
 }
+
+
 
 
