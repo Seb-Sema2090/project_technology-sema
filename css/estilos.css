@@ -11,7 +11,7 @@ header{
     grid-template-columns: repeat(3, 1fr);
     align-items:center;
     justify-items: center;
-    width: 1200px;
+    
     margin: auto;
 }
 
@@ -31,6 +31,7 @@ a{
 
 .header-botones{
     margin-top: 3rem;
+    size: 30px;
 }
 
 .carrito {
@@ -41,17 +42,17 @@ margin-left: 3rem;
     
     background-color: rgb(217, 214, 214);
     margin-top: 4rem;
-    width: 1200px;
     margin: auto;
     display: flex;
     justify-content: space-between;
     border: 1px solid black;
     padding: 10px 30px;
+    
 }
 
 .imagen-central{
-    width: 1200px;
     margin:auto;
+    text-align: center;
 }
 
 
@@ -73,7 +74,7 @@ footer{
 
 .footer_pag{
     font-size: 18px;
-   padding: 3rem 0rem;
+    padding: 3rem 0rem;
     margin: auto;
     margin-bottom: 0;
     width: 1200px;
