@@ -1,6 +1,13 @@
-@media screen and (max-width: 600px) {
-    .BarraDeNavegacion{
+@media screen and (max-width: 480px) {
+    .icon-bar{
         position: relative;
     }
+}
+
+.header-botones  .icon-bar{ 
+    display: none;
+    columns: width auto;
     
 }
+    
+

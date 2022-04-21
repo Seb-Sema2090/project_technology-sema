@@ -25,8 +25,21 @@ a{
 }
 
 .imagen-logo{
-    
     justify-self: start;
+    animation-name: anim-logo;
+    animation-delay: 2s;
+    animation-duration: 4s;
+    animation-iteration-count: 2s;
+}
+
+@keyframes anim-logo {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+    
 }
 
 .header-botones{
@@ -53,6 +66,7 @@ margin-left: 3rem;
 .imagen-central{
     margin:auto;
     text-align: center;
+    width:100%
 }
 
 
@@ -77,9 +91,9 @@ footer{
     padding: 3rem 0rem;
     margin: auto;
     margin-bottom: 0;
-    width: 1200px;
     display: grid;
     grid-template-columns: 5fr 2fr;
+    width: 80%;
 }
 
 .redes-sociales{
@@ -137,6 +151,10 @@ footer{
     justify-items: center;
     grid-area: span;
 }
+
+
+
+
 
 
 
