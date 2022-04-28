@@ -13,7 +13,6 @@ header{
     grid-template-columns: repeat(3, 1fr);
     align-items:center;
     justify-items: center;
-    
     margin: auto;
 }
 
@@ -44,7 +43,7 @@ a{
     
 }
 
-.header-botones{
+.botones{
     margin-top: 3rem;
     size: 30px;
 }
@@ -96,14 +95,12 @@ footer{
     display: grid;
     grid-template-columns: 5fr 2fr;
     width: 80%;
+    
+    .redes-sociales{
+            display: flex;
+            justify-content: space-between;
+    }
 }
-
-.redes-sociales{
-    display: flex;
-    justify-content: space-between;
-
-}
-
 
 .componentes-busqueda{
     display: grid;
